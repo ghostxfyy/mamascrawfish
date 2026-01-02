@@ -1,5 +1,4 @@
 import { MapPin, Phone, Clock, Facebook, Instagram } from 'lucide-react';
-import logo from '../assets/448307703_493474526412268_5745447106830264288_n.jpg';
 
 export default function Footer() {
   return (
@@ -7,11 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <img
-              src={logo}
-              alt="Mama's Crawfish N Wings"
-              className="w-32 mb-4"
-            />
+            <h3 className="text-2xl font-bold text-orange-500 mb-4">
+              Mama's Crawfish N Wings
+            </h3>
             <p className="mb-4">
               Authentic Cajun cuisine serving fresh seafood and wings in Suwanee, Georgia
             </p>

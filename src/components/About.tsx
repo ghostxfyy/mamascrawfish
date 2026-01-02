@@ -1,5 +1,4 @@
 import { Clock, Heart, Award } from 'lucide-react';
-import storefront from '../assets/2024-04-18.webp';
 
 export default function About() {
   return (
@@ -15,7 +14,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src={storefront}
+              src="https://images.pexels.com/photos/1449773/pexels-photo-1449773.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt="Mama's Crawfish N Wings storefront"
               className="rounded-lg shadow-xl w-full h-96 object-cover"
             />

@@ -1,18 +1,14 @@
-import wings from '../assets/lemon-pepper-chicken-wings-26-1200.jpg';
-import lobster1 from '../assets/348s_(1).jpg';
-import lobster2 from '../assets/348s.jpg';
-
 const images = [
   {
-    src: wings,
+    src: 'https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Lemon Pepper Wings - Crispy golden wings with lemon pepper seasoning',
   },
   {
-    src: lobster1,
+    src: 'https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Lobster Platter - Fresh lobster with vegetables and seafood',
   },
   {
-    src: lobster2,
+    src: 'https://images.pexels.com/photos/1579007/pexels-photo-1579007.jpeg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Lobster Tail Platter - Grilled lobster tail with shrimp and vegetables',
   },
 ];

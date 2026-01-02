@@ -1,6 +1,4 @@
 import { UtensilsCrossed, Calendar, ShoppingBag } from 'lucide-react';
-import logo from '../assets/mamas_logo.png';
-import crawfishHero from '../assets/tdy_food_10a_crawfish_200225_1920x1080.jpg';
 
 export default function Hero() {
   return (
@@ -9,15 +7,13 @@ export default function Hero() {
       className="relative h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${crawfishHero})`,
+          `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/725997/pexels-photo-725997.jpeg?auto=compress&cs=tinysrgb&w=1920)`,
       }}
     >
       <div className="text-center text-white px-4 max-w-4xl">
-        <img
-          src={logo}
-          alt="Mama's Crawfish N Wings"
-          className="w-64 md:w-80 mx-auto mb-8 drop-shadow-2xl"
-        />
+        <h1 className="text-5xl md:text-7xl font-bold mb-8 drop-shadow-2xl text-orange-500">
+          Mama's Crawfish N Wings
+        </h1>
         <p className="text-2xl md:text-3xl mb-8 font-semibold drop-shadow-md">
           Bold Cajun Flavor • Fresh Seafood & Wings • Open Late!
         </p>
